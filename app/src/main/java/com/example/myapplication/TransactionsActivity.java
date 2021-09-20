@@ -29,7 +29,8 @@ public class TransactionsActivity extends AppCompatActivity {
         TextMulti1 = findViewById(R.id.TextMulti1);
         TextMulti2 = findViewById(R.id.TextMulti2);
 
-        String text = "From     Adarsh Marakwar        Amount To           Panda Chan                 10000";
+/*        String text = "From    Manasi Chaudhari     Amount To        Vincenzo         10000";
+
 
         SpannableString ss = new SpannableString(text);
 
@@ -55,7 +56,7 @@ public class TransactionsActivity extends AppCompatActivity {
         ss2.setSpan(fcs2green, 39, 41, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         ss2.setSpan(fcs2cyan, 30, 38, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
-        TextMulti1.setText(ss2);*/
+        TextMulti1.setText(ss2);
 
         String text1 = "From      Walter White             Amount To           Vito Corleone             40000";
 
@@ -70,6 +71,8 @@ public class TransactionsActivity extends AppCompatActivity {
         ss1.setSpan(fcs1cyan, 35, 41, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
         TextMulti2.setText(ss1);
+
+ */
 
         // get the drawable layout
         Drawable multi = ContextCompat.getDrawable(this,R.drawable.multitext_layout);

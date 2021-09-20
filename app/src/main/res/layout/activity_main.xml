@@ -8,20 +8,21 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="303dp"
-        android:layout_height="443dp"
+        android:layout_width="370dp"
+        android:layout_height="347dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.055"
-        app:srcCompat="@drawable/bank1" />
+        app:layout_constraintVertical_bias="0.122"
+        app:srcCompat="@drawable/bank0" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="60dp"
         android:background="@color/teal_200"
         android:padding="10dp"
         android:text="customer"
@@ -50,8 +51,8 @@
         android:id="@+id/textView13"
         android:layout_width="247dp"
         android:layout_height="44dp"
-        android:text="Bank  of  Japan"
-        android:textColor="#CF3A0B"
+        android:text="Bank  of  Korea"
+        android:textColor="#673AB7"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
